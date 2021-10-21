@@ -15,8 +15,10 @@
 </template>
 
 <script>
-  import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
+  import { Swiper, SwiperSlide, Scrollbar } from 'vue-awesome-swiper'
   import 'swiper/swiper-bundle.min.css'
+
+  Swiper.use([Scrollbar])
 
   export default {
     name: 'swiper-example-scrollbar',

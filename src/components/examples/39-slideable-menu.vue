@@ -48,7 +48,7 @@
       }
     },
     methods: {
-      toggleMenu(event) {
+      toggleMenu() {
         this.menuOpened
           ? this.swiper.slideNext()
           : this.swiper.slidePrev()

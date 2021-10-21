@@ -14,15 +14,14 @@
 </template>
 
 <script>
-  import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
+  import { Swiper } from 'vue-awesome-swiper'
   import 'swiper/swiper-bundle.min.css'
 
   export default {
     name: 'swiper-example-virtual-slides',
     title: 'Virtual slides',
     components: {
-      Swiper,
-      SwiperSlide
+      Swiper
     },
     data() {
       return {
