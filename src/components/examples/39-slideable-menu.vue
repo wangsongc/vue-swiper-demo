@@ -35,8 +35,10 @@
           resistanceRatio: 0,
           slidesPerView: 'auto',
           on: {
-            slideChange: () => {
-              this.menuOpened = this.swiper.activeIndex === 0
+            slideChange: (swiper) => {
+              this.menuOpened = swiper.activeIndex === 0
+              console.log(swiper);
+              console.log(this);
             }
           }
         }
