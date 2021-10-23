@@ -98,6 +98,7 @@
       .text {
         max-width: 430px;
         line-height: 1.32;
+        font-size: $font-size-base;
       }
     }
   }
